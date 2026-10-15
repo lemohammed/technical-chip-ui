@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Chip UI"
+  short_description: "Editorial websites and interactive Canvas chip stacks"
+  default_prompt: "Use $technical-chip-ui to build an editorial page with a labelled, interactive chip-stack diagram for my project."

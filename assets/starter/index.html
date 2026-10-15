@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b1a">
+  <meta name="description" content="An open technical editorial UI with an interactive, procedural Canvas chip stack.">
+  <title>Technical Chip UI — A system, layer by layer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header"><a class="brand" href="#">TECHNICAL<span>/</span>CHIP UI</a><nav aria-label="Main"><a href="#system">The layers</a><a href="#method">How it works</a><a href="https://github.com/lemohammed/technical-chip-ui">Source ↗</a></nav></header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="signal"></span> OPEN DESIGN SKILL / 1.0</p><h1>A system,<br><em>layer by layer.</em></h1><p class="deck">Technical depth. A quiet interface.</p><p class="description">An editorial page with a living circuit diagram. Five labelled layers make the system inspectable without overwhelming the explanation.</p><div class="actions"><a class="button" href="#system">Explore the layers ↘</a><a class="text-link" href="https://github.com/lemohammed/technical-chip-ui/blob/main/SKILL.md">Use the skill ↗</a></div><p class="footnote">HTML · CSS · CANVAS <span>NO RUNTIME DEPENDENCIES</span></p></div>
+      <figure class="diagram"><figcaption><span>FIG. 01 / CONNECTED LAYERS</span><button id="motion" type="button" aria-pressed="false">Play motion ▷</button></figcaption><canvas aria-label="Conceptual stack of five circuit boards. Drag to rotate, or use the labelled layer buttons below." role="img"></canvas><div class="caption"><span><span class="signal"></span> PROCEDURAL CANVAS</span><span>Conceptual motion · no telemetry</span></div><p class="legend" aria-hidden="true">Hardware · Weights · Architecture · Harness · Lab</p></figure>
+    </section>
+    <section id="system" class="wrap system" aria-labelledby="system-title"><div class="section-head"><div><p class="eyebrow">01 / SYSTEM</p><h2 id="system-title">Select a layer.<br>Understand its role.</h2></div><p>The board shape connects the visual language.<br>The labels explain the actual system.</p></div><div id="layers" class="layers" role="tablist" aria-label="System layer"></div><div id="layer-panel" class="layer-panel" role="tabpanel" tabindex="0"><p class="eyebrow">SELECTED COMPONENT</p><h3 id="layer-title">Physical compute</h3><p id="layer-description">Kernels, memory and data movement form the base.</p></div></section>
+    <section id="method" class="method"><div class="wrap"><p class="eyebrow">02 / THE MECHANISM</p><h2>Depth, drawn in two dimensions.</h2><div class="method-grid"><article><span class="micro">GEOMETRY</span><h3>Rotate. Project. Layer.</h3><p>Rotate each board point around a vertical axis. Compress depth into screen height. Draw the lower boards first, then the upper boards.</p></article><article><span class="micro">MATERIAL</span><h3>Edges and circuitry.</h3><p>A dark front edge suggests thickness. Fine routed traces, a central die grid and muted outlines give each plane its chip character.</p></article><article><span class="micro">MOTION</span><h3>One quiet clock.</h3><p>Slow yaw and small signal dots share elapsed time. Reduced motion starts paused; Play, Pause, selection and drag stay under your control.</p></article></div></div></section>
+  </main>
+  <footer class="wrap"><p>Derived from the original Eden Forge editorial design.</p><a href="https://github.com/lemohammed/technical-chip-ui">MIT-licensed source ↗</a></footer>
+  <noscript><p class="wrap">The chip stack and layer controls need JavaScript. The design explanation and source remain available above.</p></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "technical-chip-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An open skill and dependency-free editorial UI with an interactive Canvas chip stack.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "preview": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
